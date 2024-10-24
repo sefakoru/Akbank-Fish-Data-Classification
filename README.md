@@ -22,6 +22,10 @@ Bu proje, Kaggle platformunda bulunan [balık](https://www.kaggle.com/datasets/c
   - Eğitim sürecinde, `EarlyStopping` (erken durdurma) ve `ReduceLROnPlateau` gibi teknikler kullanılarak eğitim süresince modelin doğrulama doğruluğu (validation accuracy) izlenmiş ve en iyi model ağırlıkları korunmuştur.
   - Eğitim süreci boyunca doğruluk (accuracy) ve kayıp (loss) değerleri düzenli olarak izlenmiş ve model performansındaki iyileşmeler değerlendirilmiştir.
     
-- **Sonuçlar:** Modelin doğrulama doğruluğu (validation accuracy) ve kaybı (validation loss) değerlendirilmiş, en iyi sonuçlar elde edilen model kullanılarak sınıflandırma başarıyla gerçekleştirilmiştir.
+- **Sonuçlar:**
+  - Model, doğrulama verisi üzerinde yüksek bir doğruluk elde ederek balık türlerini başarıyla sınıflandırmıştır.
+  - Test verisi üzerinde modelin doğruluğu **%96.78** olarak ölçülmüştür, bu da modelin genel performansının oldukça başarılı olduğunu göstermektedir.
+  - Test sırasında modelin kaybı (loss) **0.7591** olarak belirlenmiştir, bu da modelin sınıflandırma sırasında ne kadar doğru tahminler yaptığını gösterir.
+  - Sonuçlar, balık türlerinin görselleri ve tahminleriyle birlikte görselleştirilmiş, modelin doğru ve yanlış tahminleri analiz edilmiştir.
 
 Proje detaylarına ve kodlarına ulaşmak için aşağıdaki bağlantıya tıklayabilirsiniz:
